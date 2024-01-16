@@ -273,14 +273,22 @@ img {
 
 #about-c .about-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem; }
   #about-c .about-logos img {
-    width: 70%; }
+    width: 50%;
+   }
+   #about-c .about-logos #img-2{
+    padding-top: 1.5rem;
+   }
+
+   #about-c .about-logos #img-3{
+    padding-top: 6.5rem;
+   }
 
 #about-d .testimonials {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.5rem; }
   #about-d .testimonials ul {
     list-style: none;
@@ -350,7 +358,8 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+    color: #fff; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
