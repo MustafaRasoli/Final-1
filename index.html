@@ -7,6 +7,15 @@
     <script src="https://kit.fontawesome.com/17271c9d72.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <title>Mustafa | Developer </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    
+
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> 
 </head>
 <body>
 
@@ -23,7 +32,7 @@
                 </ul>
             </nav>
             <div class="header-content">
-                <h1>Hello World, I am Mustafa <span class="txt-type" data-wait="3000" data-word='["Developer", "Designer", "Technician"]'></span></h1>
+                <h1 id="headline">Hello World, I am Mustafa <span class="txt-type" data-wait="3000" data-word='["Developer", "Designer", "Technician"]'></span></h1>
                 <p class="lead">I love and do frontend development, website design and coding</p>
                 <a href="work.html" class="btn-light">View My Work</a>
             </div>
@@ -33,7 +42,7 @@
     <!-- Sectioin A: specialize -->
     <section id="Home-a" class="text-center py-2">
         <div class="container">
-            <h2 class="section-title"> I Specialize in </h2>
+            <h2 class="section-title moving-title-1"> I Specialize in </h2>
             <div class="bottom-line"></div>
             <p class="lead">
                 Website development, focused on frontend development, creating digital masterpieces and some knowledge about UI/UX design
@@ -68,7 +77,7 @@
 
     <!-- Section B: stats -->
     <section id="Home-b" class="text-center py-2">
-        <h2 class="section-title"> My gools in the next 3 years </h2>
+        <h2 class="section-title my-title " id="goals"> My gools in the next 3 years </h2>
         <div class="stats">
             <div id="one">
                 <ul>
@@ -107,7 +116,7 @@
     <!-- Section C: Process -->
     <section id="Home-c" class="text-center py-2">
         <div class="container">
-            <h2 class="section-title">
+            <h2 class="section-title creative">
                 My Creative Process
             </h2>
             <div class="bottom-line"></div>
@@ -115,7 +124,7 @@
                 All of my website development project are based off of a practice formula to get the result that I am looking for
             </p>
             <div class="process">
-                <div>
+                <div class="drop">
                     <i class="fas fa-file-alt fa-4x process-icon my-2">
                         <div class="process-step">1</div>
                     </i>
@@ -124,7 +133,7 @@
                     <p>There are many useful techniques that include in UI/UX website design concept that leads the website development into simplicity, high efficiency and comprehensiveness.</p>
                 </div>
 
-                <div>
+                <div class="drop">
                     <i class="fas fa-desktop fa-4x process-icon my-2">
                         <div class="process-step">2</div>
                     </i>
@@ -133,7 +142,7 @@
                     <p>While I am to develop a website I would focus on the type of user that I target, I would try to understand my clients and make the website personalized for them.</p>
                 </div>
 
-                <div>
+                <div class="drop">
                     <i class="fas fa-object-ungroup fa-4x process-icon my-2">
                         <div class="process-step">3</div>
                     </i>
@@ -142,7 +151,7 @@
                     <p>Best practice for search engine optimization is another part of my focus, including but not limited to appropriate amount of content for your subject, using links wisely and avoiding distractive links and information.</p>
                 </div>
 
-                <div>
+                <div class="drop">
                     <i class="fas fa-thumbs-up fa-4x process-icon my-2">
                         <div class="process-step">4</div>
                     </i>
@@ -174,5 +183,16 @@
 
     <!-- javaScript  https://www.youtube.com/watch?v=pox3dt-pb4e -->
     <script src="typewriter.js"></script>
+    <script src="script.js"></script>
+
+
+<!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- waypoints CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
 </body>
 </html>

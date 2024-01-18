@@ -75,6 +75,30 @@ input[class^='btn-']:hover {
 .my-4 {
   margin: 4rem 0; }
 
+
+  /* animation section */
+  .moving-title-1 , #goals, .stats, .creative, .drop{
+    opacity: 0;
+  }
+
+.moving-title-1.animate__animated,
+#goals.animate__animated, .stats.animate__animated,
+.creative.animate__animated, .drop.animate__animated {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section-title {
   font-size: 2rem;
   display: block;
