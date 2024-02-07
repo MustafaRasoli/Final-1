@@ -258,7 +258,8 @@ img {
 
 #about-a .bio-image {
   grid-area: bioimage;
-  height: 14rem; }
+  height: 14rem;
+width: 20rem ; }
 
 #about-a .bio {
   grid-area: bio;
